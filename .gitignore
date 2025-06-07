@@ -30,23 +30,38 @@ ENV/
 .vscode/
 *.swp
 *.swo
-.project
-.pydevproject
-.settings/
+.DS_Store
 
 # Логи и кэш
 *.log
 .cache/
-.pytest_cache/
+wandb/
+runs/
+
+# Данные и чекпоинты
+data/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Временные файлы
+*.tmp
+*.temp
 .coverage
 htmlcov/
 
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Локальные конфигурации
+.env
+.env.local
+config.local.yaml
+
 # Модели и данные
 model/
-data/
-*.pth
-*.ckpt
-*.pt
 *.npy
 *.npz
 *.h5
@@ -65,16 +80,12 @@ data/
 
 # Tensorboard
 tensorboard/
-runs/
 events.out.tfevents.*
 
 # Системные файлы
-.DS_Store
 Thumbs.db
 desktop.ini
 
 # Временные файлы
-*.tmp
 *.bak
-*.swp
 *~ 
