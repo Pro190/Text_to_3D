@@ -1,0 +1,17 @@
+{
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "num_epochs": 100,
+    "latent_dim": 128,
+    "hidden_dim": 256,
+    "num_heads": 4,
+    "num_layers": 2,
+    "dropout": 0.1,
+    "num_points": 2048,
+    "weight_decay": 1e-05,
+    "early_stopping_patience": 10,
+    "early_stopping_delta": 0.0001,
+    "learning_rate_scheduler_factor": 0.5,
+    "learning_rate_scheduler_patience": 5,
+    "learning_rate_scheduler_min_lr": 1e-06
+}
